@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.c-pink {
+  color: rgb(229, 49, 112);
+}
+.t-al-c {
+  text-align: center;
+}
+/*per padre*/
+.conteiner {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  background-color: blue;
+}
+.figlio1 {
+  background-color: rgb(220, 28, 28);
+}
+.figlio2 {
+  background-color: rgb(220, 226, 43);
+}
+.figlio3 {
+  background-color: rgb(14, 135, 46);
+}
+.figlio4 {
+  background-color: black;
+}
+.figlio5 {
+  background-color: rgb(178, 24, 168);
+}
+.figlio6 {
+  background-color: blueviolet;
+}
