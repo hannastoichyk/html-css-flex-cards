@@ -2,14 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
 }
-main {
+body {
   width: 80%;
   margin: 0 auto;
   text-align: center;
 }
 .c-pink {
-  color: rgb(229, 49, 112);
+  color: rgb(148 61 107);
 }
 .t-al-c {
   text-align: center;
@@ -20,13 +21,13 @@ main {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 10px 10px;
+  gap: 0px;
+  padding: 5px 5px;
   background-color: rgb(186, 186, 193);
 }
 
 .figlio {
-  background-color: rgb(15, 14,23);
+  background-color: rgb(15, 14, 23);
   color: antiquewhite;
   display: flex;
   align-items: center;
@@ -37,11 +38,19 @@ main {
   display: flex;
   justify-content: flex-start;
   text-align: left;
+  height: 130px;
 }
 .testo {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding: 10px;
+  height: 120px;
 }
-a{color: 124 167 154;}
+a {
+  color: #6ecbf2;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(148, 61, 107);
+}
