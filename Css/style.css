@@ -12,7 +12,7 @@
 /*per padre*/
 .conteiner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
   height: 100%;
@@ -20,15 +20,21 @@
 }
 .figlio1 {
   background-color: rgb(220, 28, 28);
+  display: flex;
+  justify-content: space-between;
+ 
+ flex-wrap: nowrap;
+  width: auto;
 }
 .figlio2 {
   background-color: rgb(220, 226, 43);
+  
 }
 .figlio3 {
   background-color: rgb(14, 135, 46);
 }
 .figlio4 {
-  background-color: black;
+  background-color: rgb(194, 103, 22);
 }
 .figlio5 {
   background-color: rgb(178, 24, 168);
@@ -36,3 +42,4 @@
 .figlio6 {
   background-color: blueviolet;
 }
+
